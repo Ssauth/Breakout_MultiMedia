@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwosmyajb47iu"]
+
+[ext_resource type="Texture2D" uid="uid://csu50eir2isx" path="res://raquette/skin_raquette_a.tres" id="1_8wwvb"]
+[ext_resource type="Script" uid="uid://bo3wljj5mff4s" path="res://raquette/control_joueur.gd" id="2_rdu13"]
+
+[node name="Raquette" type="CharacterBody2D"]
+position = Vector2(589, 577)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="SkinRaquetteA" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(1, 0)
+texture = ExtResource("1_8wwvb")
+script = ExtResource("2_rdu13")
