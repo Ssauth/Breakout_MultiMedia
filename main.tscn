@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://dl82a6ffmfk5o"]
+
+[ext_resource type="Script" uid="uid://dgd6nnym32ci" path="res://label.gd" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(0, 2)
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Oui oui patate"
+script = ExtResource("1_ig7tw")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 125.0
+offset_top = 40.0
+offset_right = 165.0
+offset_bottom = 63.0
+script = ExtResource("1_ig7tw")
+metadata/_edit_use_anchors_ = true
